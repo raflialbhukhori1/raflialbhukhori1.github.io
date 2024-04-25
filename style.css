@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.intro {
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+    padding: 50px 0;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.product {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.frame {
+    width: 30%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.frame img {
+    width: 100%;
+    border: 5px solid #000;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #000; /* Warna abu-abu */
+    padding: 10px;
+}
+footer p {
+    color: #fff; /* Warna putih */
+}
+
+/* Gaya khusus untuk bagian owner */
+#owner {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.owner-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 4px solid #000; /* Border diperbesar */
+    padding: 20px;
+}
+
+.owner-image {
+    padding: 10px;
+    border-radius: 50%; /* Agar foto menjadi lingkaran */
+    margin-bottom: 20px; /* Memberikan jarak antara foto dan deskripsi */
+}
+
+.owner-image img {
+    width: 300px; /* Sesuaikan dengan ukuran foto */
+    height: 340px; /* Sesuaikan dengan ukuran foto */
+}
+
+.owner-details h2 {
+    margin-top: 0;
+}
+
+.owner-details p {
+    color: #666;
+    font-style: italic;
+    font-weight: bold;
+}
